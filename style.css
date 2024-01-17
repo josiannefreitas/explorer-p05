@@ -56,4 +56,50 @@ button {
   border: 0;
   padding: 0.8rem 1.2rem;
   border-radius: 0.8rem;
+  text-transform: capitalize;
+}
+
+@media (min-width: 770px) {
+  body {
+    align-items: center;
+  }
+
+  main {
+    flex-direction: row;
+    max-width: fit-content;
+    justify-content: space-between;
+    gap: 16rem;
+    padding-top: 9rem 6rem;
+  }
+
+  div {
+    flex: 1;
+    max-width: 55rem;
+  }
+
+  h1,
+  h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5rem;
+  }
+
+  p,
+  li {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+  }
+
+  strong {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+  }
+
+  button {
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    line-height: 2.4rem;
+  }
 }
